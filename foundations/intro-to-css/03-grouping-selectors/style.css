@@ -1,0 +1,14 @@
+.ho,
+.oh{
+    font-size: 28px; 
+    font-family: Helvetica,"Times New Roman", sans-serif;
+}
+.ho
+{
+    background-color: hsl(0, 0%, 0%); color: rgb(255, 255, 255);
+}
+.oh
+{
+    background-color: #ffff00;
+}
+/* Standardize the order of properties, font family over size */
