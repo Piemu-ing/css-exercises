@@ -8,7 +8,7 @@ body {
   font-weight: 800;
 }
 
-.small-para {
+.para.small-para {
   font-size: 14px;
   font-weight: 800;
 }
@@ -17,16 +17,22 @@ body {
   font-size: 22px;
 }
 
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
 .confirm {
   background: green;
   color: white;
   font-weight: bold;
 } 
 
-.button {
-  background-color: rgb(255, 255, 255);
+.text {
   color: rgb(0, 0, 0);
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: 100;
 }
 
 .child {
@@ -35,8 +41,32 @@ body {
   font-size: 14px;
 }
 
+/* 
+1
+Added the class ".para" to this selector
+
+.small-para {
+  font-size: 14px;
+  font-weight: 800;
+  }
+
+2
+Moved this selector one step below
+
+.confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
+  } 
+
+3
+Removed the type selector "div" and
+Moved it one step above
+
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
 }
+
+*/
